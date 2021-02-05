@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   springboot:
-    image: vuppalar/springboot:a
+    image: vuppalar/springboot:abcde
     ports:
       - 8080:8080
     networks:
