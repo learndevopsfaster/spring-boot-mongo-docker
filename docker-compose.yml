@@ -9,8 +9,6 @@ services:
     - springappnetwork
   mongo:
     image: mongo
-    ports:
-       - 9090:8080
     volumes:
       - mongodb:/data/db
     networks:
